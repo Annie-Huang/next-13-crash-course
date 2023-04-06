@@ -12,9 +12,10 @@ PS C:\react> npx create-next-app@latest
 √ What import alias would you like configured? ... @/*
 Creating a new Next.js app in C:\react\next_13_crash.
 
+PS C:\react\next-13-crash-course> npm i react-icons
+
 
 PS C:\react\next-13-crash-course> npm run dev
-
 
 http://localhost:3000/
 http://localhost:3000/about
