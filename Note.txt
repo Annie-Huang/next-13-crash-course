@@ -19,6 +19,7 @@ PS C:\react\next-13-crash-course> npm run dev
 http://localhost:3000/
 http://localhost:3000/about
 http://localhost:3000/about/team
+http://localhost:3000/code/repos
 
 
 Advantages of React Serverside Component (RSC):
