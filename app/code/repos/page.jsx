@@ -6,8 +6,11 @@ async function fetchRepos() {
   return repos;
 }
 
-const ReposPage = () => {
-  return <div>ReposPage</div>;
+const ReposPage = async () => {
+  const repos = await fetchRepos();
+  console.log('repos=', repos); // This will print out in terminal, not console in chrome devtool
+
+  return <div>{repos[0].name}</div>;
 };
 
 export default ReposPage;
