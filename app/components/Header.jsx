@@ -1,3 +1,5 @@
+// This is a server side component. Everything is server side component by default unless you have this:
+// 'use client';
 import Link from 'next/link';
 
 const Header = () => {
