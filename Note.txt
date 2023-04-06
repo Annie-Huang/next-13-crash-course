@@ -1,0 +1,13 @@
+Next.js 13 Crash Course | App Directory, React Server Components & More (https://www.youtube.com/watch?v=Y6KDk5iyrYE)
+
+https://github.com/Annie-Huang/next_13_crash
+-------------------------------------------------------------------------------
+
+PS C:\react> npx create-next-app@latest
+√ What is your project named? ... next_13_crash
+√ Would you like to use TypeScript with this project? ... No / Yes		<--------- No
+√ Would you like to use ESLint with this project? ... No / Yes			<--------- No
+√ Would you like to use `src/` directory with this project? ... No / Yes	<--------- No
+√ Would you like to use experimental `app/` directory with this project? ... No / Yes	<--------- Yes
+√ What import alias would you like configured? ... @/*
+Creating a new Next.js app in C:\react\next_13_crash.
