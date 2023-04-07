@@ -1,6 +1,7 @@
 Next.js 13 Crash Course | App Directory, React Server Components & More (https://www.youtube.com/watch?v=Y6KDk5iyrYE)
 
-https://github.com/Annie-Huang/next_13_crash
+https://github.com/bradtraversy/next-13-crash-course
+https://github.com/Annie-Huang/next-13-crash-course
 -------------------------------------------------------------------------------
 
 PS C:\react> npx create-next-app@latest
