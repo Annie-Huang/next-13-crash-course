@@ -5,6 +5,12 @@ async function fetchRepos() {
   const response = await fetch(
     'https://api.github.com/users/bradtraversy/repos'
   );
+
+  // Force you to wait 1 second to in order to show you the spinner.
+  // If this component is a server side component, and you have the loading.jsx in the root loading, when it's loading,
+  // it will that file, you don't need to do isFetching etc.
+  await new Promise((resolve) => setTimeout(resolve, 1000));
+
   const repos = await response.json();
   return repos;
 }
