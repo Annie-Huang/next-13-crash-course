@@ -2,8 +2,14 @@ import Link from 'next/link';
 import { FaStar, FaCodeBranch, FaEye } from 'react-icons/fa';
 
 async function fetchRepos() {
+  // Refetch every 60 seconds.
   const response = await fetch(
-    'https://api.github.com/users/bradtraversy/repos'
+    'https://api.github.com/users/bradtraversy/repos',
+    {
+      next: {
+        revalidate: 60,
+      },
+    }
   );
 
   // Force you to wait 1 second to in order to show you the spinner.
