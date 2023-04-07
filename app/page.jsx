@@ -32,7 +32,7 @@ const HomePage = () => {
   return (
     <div>
       <h1>Welcome To Traversy Media</h1>
-      <CourseSearch />
+      <CourseSearch getSearchResults={(results) => setCourses(results)} />
       <Courses courses={courses} />
     </div>
   );
