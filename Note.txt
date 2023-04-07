@@ -14,7 +14,7 @@ PS C:\react> npx create-next-app@latest
 Creating a new Next.js app in C:\react\next_13_crash.
 
 PS C:\react\next-13-crash-course> npm i react-icons
-
+PS C:\react\next-13-crash-course> npm i uuid
 
 PS C:\react\next-13-crash-course> npm run dev
 
