@@ -7,6 +7,7 @@ import Link from 'next/link';
 import LoadingPage from './loading';
 
 import Courses from './components/Courses';
+import CourseSearch from './components/CourseSearch';
 
 const HomePage = () => {
   const [courses, setCourses] = useState([]);
@@ -31,6 +32,7 @@ const HomePage = () => {
   return (
     <div>
       <h1>Welcome To Traversy Media</h1>
+      <CourseSearch />
       <Courses courses={courses} />
     </div>
   );
