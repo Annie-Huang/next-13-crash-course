@@ -24,6 +24,10 @@ const HomePage = () => {
     fetchCourses();
   }, []);
 
+  if (loading) {
+    return <LoadingPage />;
+  }
+
   return (
     <div>
       <h1>Welcome To Traversy Media</h1>
